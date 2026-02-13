@@ -1,14 +1,16 @@
 import React from "react";
+import "./ProductCard.css";
 
-function ProductCard({ product }) {
+export default function ProductCard({ product }) {
   return (
-    <div className="card">
+    <div className="product-card">
+      <div className="emoji">{product.emoji}</div>
       <h3>{product.name}</h3>
-      <p><strong>Brand:</strong> {product.brand}</p>
-      <p><strong>Price:</strong> ₹{product.price}</p>
-      <p><strong>Category:</strong> {product.category}</p>
+      <p className="price">₹{product.price}</p>
+
+      <span className={product.inStock ? "stock in" : "stock out"}>
+        {product.inStock ? "In Stock" : "Out of Stock"}
+      </span>
     </div>
   );
 }
-
-export default ProductCard;

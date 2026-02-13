@@ -1,0 +1,36 @@
+.product-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.emoji {
+  font-size: 40px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.stock {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.stock.in {
+  background: #d4edda;
+  color: green;
+}
+
+.stock.out {
+  background: #f8d7da;
+  color: red;
+}
