@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fs-react-lab/static/css/main.c39f485d.css",
-    "main.js": "/fs-react-lab/static/js/main.39158642.js",
+    "main.css": "/fs-react-lab/static/css/main.5c87d2b3.css",
+    "main.js": "/fs-react-lab/static/js/main.0fe07d00.js",
     "index.html": "/fs-react-lab/index.html",
-    "main.c39f485d.css.map": "/fs-react-lab/static/css/main.c39f485d.css.map",
-    "main.39158642.js.map": "/fs-react-lab/static/js/main.39158642.js.map"
+    "main.5c87d2b3.css.map": "/fs-react-lab/static/css/main.5c87d2b3.css.map",
+    "main.0fe07d00.js.map": "/fs-react-lab/static/js/main.0fe07d00.js.map"
   },
   "entrypoints": [
-    "static/css/main.c39f485d.css",
-    "static/js/main.39158642.js"
+    "static/css/main.5c87d2b3.css",
+    "static/js/main.0fe07d00.js"
   ]
 }
